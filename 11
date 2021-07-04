@@ -1,0 +1,6 @@
+num = int(input("informe um numero: "))
+while num < 0:
+    print("informe numero positivo!")
+    num = int(input("informe um numero: "))
+for i in range(0, num +1):
+    print(i)
